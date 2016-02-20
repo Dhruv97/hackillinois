@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2902C6C91C781E0B000ABDEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2902C6C81C781E0B000ABDEF /* AppDelegate.swift */; };
+		2902C6CB1C781E0B000ABDEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2902C6CA1C781E0B000ABDEF /* ViewController.swift */; };
+		2902C6CE1C781E0B000ABDEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2902C6CC1C781E0B000ABDEF /* Main.storyboard */; };
+		2902C6D11C781E0B000ABDEF /* HackIllinois.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2902C6CF1C781E0B000ABDEF /* HackIllinois.xcdatamodeld */; };
+		2902C6D31C781E0B000ABDEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2902C6D21C781E0B000ABDEF /* Assets.xcassets */; };
+		2902C6D61C781E0B000ABDEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2902C6D41C781E0B000ABDEF /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2902C6C51C781E0B000ABDEF /* HackIllinois.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackIllinois.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2902C6C81C781E0B000ABDEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2902C6CA1C781E0B000ABDEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2902C6CD1C781E0B000ABDEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2902C6D01C781E0B000ABDEF /* HackIllinois.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HackIllinois.xcdatamodel; sourceTree = "<group>"; };
+		2902C6D21C781E0B000ABDEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2902C6D51C781E0B000ABDEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2902C6D71C781E0B000ABDEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2902C6C21C781E0B000ABDEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2902C6BC1C781E0B000ABDEF = {
+			isa = PBXGroup;
+			children = (
+				2902C6C71C781E0B000ABDEF /* HackIllinois */,
+				2902C6C61C781E0B000ABDEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2902C6C61C781E0B000ABDEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2902C6C51C781E0B000ABDEF /* HackIllinois.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2902C6C71C781E0B000ABDEF /* HackIllinois */ = {
+			isa = PBXGroup;
+			children = (
+				2902C6C81C781E0B000ABDEF /* AppDelegate.swift */,
+				2902C6CA1C781E0B000ABDEF /* ViewController.swift */,
+				2902C6CC1C781E0B000ABDEF /* Main.storyboard */,
+				2902C6D21C781E0B000ABDEF /* Assets.xcassets */,
+				2902C6D41C781E0B000ABDEF /* LaunchScreen.storyboard */,
+				2902C6D71C781E0B000ABDEF /* Info.plist */,
+				2902C6CF1C781E0B000ABDEF /* HackIllinois.xcdatamodeld */,
+			);
+			path = HackIllinois;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2902C6C41C781E0B000ABDEF /* HackIllinois */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2902C6DA1C781E0B000ABDEF /* Build configuration list for PBXNativeTarget "HackIllinois" */;
+			buildPhases = (
+				2902C6C11C781E0B000ABDEF /* Sources */,
+				2902C6C21C781E0B000ABDEF /* Frameworks */,
+				2902C6C31C781E0B000ABDEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackIllinois;
+			productName = HackIllinois;
+			productReference = 2902C6C51C781E0B000ABDEF /* HackIllinois.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2902C6BD1C781E0B000ABDEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Kyle Haptonstall";
+				TargetAttributes = {
+					2902C6C41C781E0B000ABDEF = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 2902C6C01C781E0B000ABDEF /* Build configuration list for PBXProject "HackIllinois" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2902C6BC1C781E0B000ABDEF;
+			productRefGroup = 2902C6C61C781E0B000ABDEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2902C6C41C781E0B000ABDEF /* HackIllinois */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2902C6C31C781E0B000ABDEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2902C6D61C781E0B000ABDEF /* LaunchScreen.storyboard in Resources */,
+				2902C6D31C781E0B000ABDEF /* Assets.xcassets in Resources */,
+				2902C6CE1C781E0B000ABDEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2902C6C11C781E0B000ABDEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2902C6CB1C781E0B000ABDEF /* ViewController.swift in Sources */,
+				2902C6D11C781E0B000ABDEF /* HackIllinois.xcdatamodeld in Sources */,
+				2902C6C91C781E0B000ABDEF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2902C6CC1C781E0B000ABDEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2902C6CD1C781E0B000ABDEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2902C6D41C781E0B000ABDEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2902C6D51C781E0B000ABDEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2902C6D81C781E0B000ABDEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2902C6D91C781E0B000ABDEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2902C6DB1C781E0B000ABDEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HackIllinois/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KyleHaptonstall.HackIllinois;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2902C6DC1C781E0B000ABDEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HackIllinois/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KyleHaptonstall.HackIllinois;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2902C6C01C781E0B000ABDEF /* Build configuration list for PBXProject "HackIllinois" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2902C6D81C781E0B000ABDEF /* Debug */,
+				2902C6D91C781E0B000ABDEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2902C6DA1C781E0B000ABDEF /* Build configuration list for PBXNativeTarget "HackIllinois" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2902C6DB1C781E0B000ABDEF /* Debug */,
+				2902C6DC1C781E0B000ABDEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2902C6CF1C781E0B000ABDEF /* HackIllinois.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2902C6D01C781E0B000ABDEF /* HackIllinois.xcdatamodel */,
+			);
+			currentVersion = 2902C6D01C781E0B000ABDEF /* HackIllinois.xcdatamodel */;
+			path = HackIllinois.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2902C6BD1C781E0B000ABDEF /* Project object */;
+}
